@@ -74,7 +74,7 @@ const Portfolio = () => {
                   </div>
                   <div className="relative">
                     <img src={item.after} alt="After" className="w-full h-32 object-cover" />
-                    <span className="absolute top-2 right-2 bg-pink-600 text-white px-2 py-1 text-xs rounded">After</span>
+                    <span className="absolute top-2 right-2 bg-amber-600 text-white px-2 py-1 text-xs rounded">After</span>
                   </div>
                 </div>
                 <div className="p-4">
@@ -92,7 +92,7 @@ const Portfolio = () => {
             {clientStories.map((story) => (
               <div key={story.id} className="bg-white rounded-lg shadow-lg p-6">
                 <div className="text-center mb-4">
-                  <h3 className="text-xl font-semibold text-pink-600">{story.couple}</h3>
+                  <h3 className="text-xl font-semibold text-amber-600">{story.couple}</h3>
                   <p className="text-sm text-gray-500">{story.highlight}</p>
                 </div>
                 <p className="text-gray-600 italic">"{story.story}"</p>
@@ -105,7 +105,7 @@ const Portfolio = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-semibold text-center mb-8">Featured Weddings</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg p-8">
+            <div className="bg-gradient-to-r from-amber-400 to-amber-600 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-4">Romantic Garden Wedding</h3>
               <p className="mb-4">
                 A beautiful outdoor ceremony followed by an elegant reception under twinkling lights.
@@ -119,7 +119,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-lg p-8">
+            <div className="bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-4">Beach Destination Wedding</h3>
               <p className="mb-4">
                 Sun, sand, and romance - this tropical paradise wedding was the perfect escape for this adventurous couple.
@@ -140,7 +140,7 @@ const Portfolio = () => {
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4">Inspired by Our Work?</h2>
           <p className="text-xl mb-8">Let's create something beautiful together. Contact us to start planning your dream wedding.</p>
-          <button className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition duration-300">
+          <button className="bg-amber-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-700 transition duration-300">
             Start Your Story
           </button>
         </section>

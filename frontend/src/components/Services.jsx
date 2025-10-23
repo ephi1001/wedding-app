@@ -20,7 +20,7 @@ const Services = () => {
               <li>Budget planning and financial management</li>
               <li>Guest list management and seating arrangements</li>
             </ul>
-            <div className="bg-pink-50 p-4 rounded-lg">
+            <div className="bg-amber-50 p-4 rounded-lg">
               <h4 className="font-semibold mb-2">Pricing:</h4>
               <p className="text-gray-600">Starting at $2,500 - Contact us for a personalized quote</p>
             </div>
@@ -43,7 +43,7 @@ const Services = () => {
               <li>Financial planning for couples</li>
               <li>Intimacy and expectations discussion</li>
             </ul>
-            <div className="bg-pink-50 p-4 rounded-lg">
+            <div className="bg-amber-50 p-4 rounded-lg">
               <h4 className="font-semibold mb-2">Includes:</h4>
               <ul className="list-disc list-inside text-gray-600 mb-4">
                 <li>Workbook and resource materials</li>
@@ -71,7 +71,7 @@ const Services = () => {
               <li>Problem-solving and contingency planning</li>
               <li>Photography timeline coordination</li>
             </ul>
-            <div className="bg-pink-50 p-4 rounded-lg">
+            <div className="bg-amber-50 p-4 rounded-lg">
               <h4 className="font-semibold mb-2">Pricing:</h4>
               <p className="text-gray-600">$1,200 for 8-10 hour coordination</p>
             </div>
@@ -114,7 +114,7 @@ const Services = () => {
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8">Schedule a consultation to discuss your vision and create a personalized plan.</p>
-          <button className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition duration-300">
+          <button className="bg-amber-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-700 transition duration-300">
             Schedule Consultation
           </button>
         </section>

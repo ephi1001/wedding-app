@@ -2,15 +2,15 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-20">
+      <section className="bg-gradient-to-r from-amber-400 to-amber-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-4">Plan Your Perfect Wedding Today</h1>
           <p className="text-xl mb-8">Let us make your special day unforgettable with our expert wedding planning services.</p>
           <div className="space-x-4">
-            <button className="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">
+            <button className="bg-white text-amber-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">
               Book a Consultation
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-pink-600 transition duration-300">
+            <button className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-amber-600 transition duration-300">
               Start Planning
             </button>
           </div>
@@ -23,21 +23,21 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">💒</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Wedding Planning</h3>
               <p className="text-gray-600">Comprehensive planning from engagement to reception.</p>
             </div>
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">💍</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Premarital Counseling</h3>
               <p className="text-gray-600">Prepare for marriage with expert guidance and resources.</p>
             </div>
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">🎉</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Event Coordination</h3>
@@ -53,10 +53,10 @@ const Home = () => {
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Journey?</h2>
           <p className="text-xl mb-8">Browse our services or get in touch to begin planning your dream wedding.</p>
           <div className="space-x-4">
-            <button className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition duration-300">
+            <button className="bg-amber-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-700 transition duration-300">
               Browse Services
             </button>
-            <button className="border-2 border-pink-600 text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-pink-600 hover:text-white transition duration-300">
+            <button className="border-2 border-amber-600 text-amber-600 px-8 py-3 rounded-full font-semibold hover:bg-amber-600 hover:text-white transition duration-300">
               Get in Touch
             </button>
           </div>
@@ -85,7 +85,7 @@ const Home = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="py-16 bg-pink-600 text-white">
+      <section className="py-16 bg-amber-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

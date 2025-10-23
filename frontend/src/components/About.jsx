@@ -18,11 +18,11 @@ const About = () => {
           <h2 className="text-3xl font-semibold text-center mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <div className="w-32 h-32 bg-pink-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-32 h-32 bg-amber-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-4xl">👩‍💼</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Sarah Johnson</h3>
-              <p className="text-pink-600 mb-2">Lead Wedding Planner</p>
+              <p className="text-amber-600 mb-2">Lead Wedding Planner</p>
               <p className="text-gray-600 mb-4">
                 With over 10 years of experience, Sarah has planned over 200 weddings. She specializes in destination weddings
                 and has a passion for creating magical moments.
@@ -30,11 +30,11 @@ const About = () => {
               <p className="text-sm text-gray-500">Certified Wedding Planner, MBA in Event Management</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <div className="w-32 h-32 bg-pink-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-32 h-32 bg-amber-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-4xl">👨‍💼</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Michael Chen</h3>
-              <p className="text-pink-600 mb-2">Premarital Counselor</p>
+              <p className="text-amber-600 mb-2">Premarital Counselor</p>
               <p className="text-gray-600 mb-4">
                 Michael holds a Master's in Marriage and Family Therapy. He helps couples build strong foundations
                 for their marriage through evidence-based counseling.
@@ -42,11 +42,11 @@ const About = () => {
               <p className="text-sm text-gray-500">Licensed Marriage and Family Therapist, PhD in Counseling</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <div className="w-32 h-32 bg-pink-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-32 h-32 bg-amber-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-4xl">👩‍🎨</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Emily Rodriguez</h3>
-              <p className="text-pink-600 mb-2">Event Coordinator</p>
+              <p className="text-amber-600 mb-2">Event Coordinator</p>
               <p className="text-gray-600 mb-4">
                 Emily brings creativity and attention to detail to every event. She specializes in day-of coordination
                 and has a talent for problem-solving under pressure.
@@ -98,28 +98,28 @@ const About = () => {
           <h2 className="text-3xl font-semibold text-center mb-8">Why Choose Us?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🏆</span>
               </div>
               <h3 className="font-semibold mb-2">Award-Winning</h3>
               <p className="text-gray-600 text-sm">Recognized by the wedding industry for excellence</p>
             </div>
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💯</span>
               </div>
               <h3 className="font-semibold mb-2">100% Success Rate</h3>
               <p className="text-gray-600 text-sm">Every wedding we plan exceeds expectations</p>
             </div>
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🤝</span>
               </div>
               <h3 className="font-semibold mb-2">Personal Touch</h3>
               <p className="text-gray-600 text-sm">We treat every couple like family</p>
             </div>
             <div className="text-center">
-              <div className="bg-pink-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="font-semibold mb-2">Budget Friendly</h3>
@@ -132,7 +132,7 @@ const About = () => {
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Work With Us?</h2>
           <p className="text-xl mb-8">Let's discuss how we can make your wedding dreams come true.</p>
-          <button className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition duration-300">
+          <button className="bg-amber-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-700 transition duration-300">
             Get Started Today
           </button>
         </section>
