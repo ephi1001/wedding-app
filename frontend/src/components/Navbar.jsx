@@ -2,28 +2,28 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-4 left-4 right-4 bg-white/80 shadow-lg z-10 backdrop-blur-sm rounded-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+    <nav className="fixed top-4 left-32 right-32 bg-black/80 shadow-lg z-10 backdrop-blur-sm rounded-full shadow-[0_0_30px_rgba(245,158,11,0.8),0_0_60px_rgba(245,158,11,0.5),0_0_90px_rgba(245,158,11,0.2)]">
+      <div className="w-full px-6 sm:px-8 lg:px-12">
+        <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-amber-600">
+            <Link to="/" className="text-2xl font-bold text-white uppercase">
               Wedding Planner
             </Link>
           </div>
-          <div className="flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-amber-600 transition duration-300">
+          <div className="flex items-center space-x-4">
+            <Link to="/" className="text-white uppercase hover:text-amber-600 hover:drop-shadow-[0_0_10px_rgba(245,158,11,1)] transition duration-300">
               Home
             </Link>
-            <Link to="/services" className="text-gray-700 hover:text-amber-600 transition duration-300">
+            <Link to="/services" className="text-white uppercase hover:text-amber-600 hover:drop-shadow-[0_0_10px_rgba(245,158,11,1)] transition duration-300">
               Services
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-amber-600 transition duration-300">
+            <Link to="/about" className="text-white uppercase hover:text-amber-600 hover:drop-shadow-[0_0_10px_rgba(245,158,11,1)] transition duration-300">
               About Us
             </Link>
-            <Link to="/portfolio" className="text-gray-700 hover:text-amber-600 transition duration-300">
+            <Link to="/portfolio" className="text-white uppercase hover:text-amber-600 hover:drop-shadow-[0_0_10px_rgba(245,158,11,1)] transition duration-300">
               Portfolio
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-amber-600 transition duration-300">
+            <Link to="/contact" className="text-white uppercase hover:text-amber-600 hover:drop-shadow-[0_0_10px_rgba(245,158,11,1)] transition duration-300">
               Contact
             </Link>
           </div>
